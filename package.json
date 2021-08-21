@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shivawahi/githubPackagesTest/issues"
   },
-  "homepage": "https://github.com/shivawahi/githubPackagesTest#readme"
+  "homepage": "https://github.com/shivawahi/githubPackagesTest#readme",
+  "publishConfig": {
+    "shivawahi:registry": "https://npm.pkg.github.com"
+  }
 }
