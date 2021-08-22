@@ -1,10 +1,7 @@
-function sum(a, b) {
+module.exports = function sum(a, b) {
     return a + b;
 }
 
-function multiple(a, b) {
+module.exports = function multiply(a, b) {
    return a * b;
 }
-  
-export const sum = sum;
-export const multiply = multiple;
