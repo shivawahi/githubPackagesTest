@@ -6,7 +6,5 @@ function multiple(a, b) {
    return a * b;
 }
   
-  module.exports = {
-    sum: sum,
-    multiply: multiple,
-  };
+export const sum = sum;
+export const multiply = multiple;
